@@ -1,0 +1,27 @@
+{
+  "name": "f2f-bank-tests",
+  "version": "1.0.0",
+  "description": "F2F Bank - простое веб-приложение, имитирующее сервис переводов между пользователями в стиле СБП. Пользователи могут регистрироваться, входить в систему, пополнять баланс и отправлять переводы по номеру телефона.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awakywaky/f2f-bank-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awakywaky/f2f-bank-tests/issues"
+  },
+  "homepage": "https://github.com/awakywaky/f2f-bank-tests#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.5.1",
+    "typescript": "^7.0.2"
+  }
+}
